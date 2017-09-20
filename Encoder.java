@@ -51,7 +51,7 @@ public class Encoder {
 
         while(!ex.matches("^0000.*")){
             magic++;
-            ex = getSha256(ex2+magic);
+            //ex = getSha256(ex2+magic);
         }
         System.out.println(ex);
 }
