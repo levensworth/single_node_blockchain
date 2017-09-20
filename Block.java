@@ -9,6 +9,7 @@ public class Block <T>{
     private long nounce;
     private String prevHash;
     private String hash;
+    private byte[] hash;
 
     /**
      *Creates a {@code Block} object for a {@code Blockchain}.
